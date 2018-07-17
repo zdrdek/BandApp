@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface BandDao {
 
-	void newBand(Band band);
+	public void newBand(Band band);
 
 
 	List<Band> getBandProfile(String userName);
