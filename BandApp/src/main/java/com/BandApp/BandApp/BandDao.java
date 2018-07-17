@@ -6,6 +6,7 @@ public interface BandDao {
 
 	void newBand(Band band);
 
-	List<Band> getBandProfile();
+
+	List<Band> getBandProfile(String userName);
 
 }

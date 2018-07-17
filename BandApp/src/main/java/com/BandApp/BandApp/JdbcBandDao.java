@@ -24,7 +24,7 @@ public class JdbcBandDao implements BandDao {
 //								***METHOD TO RETRIEVE A BAND PROFILE FROM THE DB***
 	
 	@Override
-	public List<Band> getBandProfile() {
+	public List<Band> getBandProfile(String userName) {
 		List<Band> bandProfile = new ArrayList<>();
 		String sqlSelectBandProfile = "SELECT band_name, genre_one, genre_two, genre_three, "
 				+ "influence_one, influence_two, influence_three, influence_four, influence_five, "
