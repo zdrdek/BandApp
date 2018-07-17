@@ -12,7 +12,7 @@
 			Genre:
 		
 <select name="genre">
-
+  <!-- Options to select genres -->
 			<optgroup label="Genres">
 			<option value="Alternative">Alternative</option>
 			<option value="Blues">Blues</option>
@@ -44,4 +44,4 @@
 		
 		
 
-		<%@include file="common/footer.jspf"%>
+<%@include file="common/footer.jspf"%>
