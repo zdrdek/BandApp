@@ -5,10 +5,9 @@
 <c:url var="formAction" value="/homePage" />
 <div class=tabAll>
 <form method="GET" action="${formAction}">
-		<div class= minMum>
-		<label for="minimumLength">Band Name:</label> 
+		<label>Band Name:</label> 
 		<input type="text" name="band" id="band" /> 
-			</div>
+			
 			Genre:
 		
 <select name="genre">
